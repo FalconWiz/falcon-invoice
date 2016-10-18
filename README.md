@@ -11,7 +11,7 @@ npm install falcon-invoice
 
 Check out ```test/index.js``` for a more detailed example!
 
-```
+```javascript
 const invoice = require('falcon-invoice')
 
 const template = '/path/to/template'
