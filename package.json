@@ -7,6 +7,13 @@
     "url": "git@github.com:FalconWiz/falcon-invoice.git",
     "type": "git"
   },
+  "keywords": [
+    "invoice",
+    "html",
+    "template",
+    "mustache",
+    "pdf"
+  ],
   "author": "Andrew Hinett <andrewhinett@gmail.com>",
   "license": "MIT",
   "dependencies": {
