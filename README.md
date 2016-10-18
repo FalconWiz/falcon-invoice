@@ -4,7 +4,6 @@ Generate PDF invoices using HTML templates and mustaches!
 ## Installation
 ```
 npm install falcon-invoice
-
 ```
 
 
@@ -15,7 +14,7 @@ Check out ```test/index.js``` for a more detailed example!
 ```
 const invoice = require('falcon-invoice')
 
-const template = '/path/to/templates'
+const template = '/path/to/template'
 const templateVariables = {
   name: 'Herp Derpington'
 }
