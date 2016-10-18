@@ -1,7 +1,7 @@
 # falcon-invoice
 Generate PDF invoices using HTML templates and mustaches!
 
-## Installation (NOTE: THIS DOESN'T WORK YET, PLEASE FORGIVE ME)
+## Installation
 ```
 npm install falcon-invoice
 ```
