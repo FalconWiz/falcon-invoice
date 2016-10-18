@@ -1,2 +1,32 @@
 # falcon-invoice
-Generate PDF invoices using a template style of your choosing
+Generate PDF invoices using HTML templates and mustaches!
+
+## Installation
+```
+npm install falcon-invoice
+
+```
+
+
+## Usage
+
+Check out ```test/index.js``` for a more detailed example!
+
+```
+const invoice = require('falcon-invoice')
+
+const template = '/path/to/templates'
+const templateVariables = {
+  name: 'Herp Derpington'
+}
+
+// Optional options
+const options = {
+  filename: 'differentName.pdf',
+  pdfOptions: {
+    orientation: 'landscape'
+  }
+}
+
+invoice(template, templateVariables, options)
+```

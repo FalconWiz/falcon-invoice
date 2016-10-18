@@ -1,0 +1,19 @@
+{
+  "name": "falcon-invoice",
+  "version": "0.0.1",
+  "description": "Generate PDF invoices using a template style of your choosing",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:FalconWiz/falcon-invoice.git",
+    "type": "git"
+  },
+  "author": "Andrew Hinett <andrewhinett@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "html-pdf": "^2.1.0",
+    "mustache": "^2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}
