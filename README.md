@@ -29,3 +29,8 @@ const options = {
 
 invoice(template, templateVariables, options)
 ```
+
+## Credits
+This package uses: [html-pdf](https://www.npmjs.com/package/html-pdf) and [mustache](https://www.npmjs.com/package/mustache)
+
+I got my test html template from: https://github.com/NextStepWebs/simple-html-invoice-template
