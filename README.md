@@ -34,3 +34,7 @@ invoice(template, templateVariables, options)
 This package uses: [html-pdf](https://www.npmjs.com/package/html-pdf) and [mustache](https://www.npmjs.com/package/mustache)
 
 I got my test html template from: https://github.com/NextStepWebs/simple-html-invoice-template
+
+
+## Output example
+![alt text](http://i.imgur.com/U9D5ZQV.png "Dat Invoice")
