@@ -1,7 +1,7 @@
 {
   "name": "falcon-invoice",
   "version": "0.0.2",
-  "description": "Generate PDF invoices using html templates!",
+  "description": "Generate PDF invoices using html templates and mustaches!",
   "main": "index.js",
   "repository": {
     "url": "git@github.com:FalconWiz/falcon-invoice.git",
@@ -21,6 +21,5 @@
     "mustache": "^2.2.1"
   },
   "devDependencies": {
-    "mocha": "^3.1.2"
   }
 }

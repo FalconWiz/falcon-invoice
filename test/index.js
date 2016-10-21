@@ -1,4 +1,3 @@
-
 const invoice = require('../')
 
 const htmlTemplate = `${__dirname}/templates/invoice.html`
