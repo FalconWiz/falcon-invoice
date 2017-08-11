@@ -18,7 +18,7 @@ module.exports = function invoice(template, templateVariables, options) {
   let settings = Object.assign({}, defaults, options)
   // First, load the template file!
   return new Promise((resolve, reject) => {
-    readFile(template)
+    return readFile(template)
       .then(fileBuffer => {
         // It resolves as a buffer, so we'll need to make a string to do things with it
         let templateString = fileBuffer.toString()
