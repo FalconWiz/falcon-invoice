@@ -11,4 +11,8 @@ const templateVariables = {
   totalCost: '59.99'
 }
 
-invoice(htmlTemplate, templateVariables)
+invoice(htmlTemplate, templateVariables).then(function(success){
+
+}).catch(function(error){
+  
+});

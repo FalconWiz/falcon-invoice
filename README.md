@@ -27,7 +27,11 @@ const options = {
   }
 }
 
-invoice(template, templateVariables, options)
+invoice(template, templateVariables, options).then(function(success){
+
+}).catch(function(error){
+  
+});
 ```
 
 ## Template Example
